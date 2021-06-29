@@ -274,3 +274,65 @@
     The official documentation.
 
 ----
+
+# Fundamentals Part 1
+
+- Name the three ways to declare a variable?
+    `var`, `let`, and `const`
+
+- Which of the three variable declarations whould you avoid and why?
+    `var` should be avoided. It is an outdated method that breaks due to unexpected behavior due to not having block-scoping behavior which `let` does have.
+
+- What rules should you follow when naming variables?
+    Variables should have meaningful unabiguous names. Camelcasing can also help to make the variable more meaningful.
+    
+- What should you look out for when using the `+` operator with numbers and strings?
+    The `+` operator is used for addition and concatination but a number can not be added to a string.
+    
+- How does the `%` operator work?
+    The `%` operator returns the remainder of division.
+    
+- Explain the difference between `==` and `===`.
+    `==` is equal to where as `===` is strict equal too. The strict equal to tests value and datatype to the is equal only testing the value.
+    
+- When would you receive a `NaN` result?
+    The `NaN` result is received when trying to do math operations on numbers and non-numeric strings.
+    
+- How do you increment and decrement a number?
+    `--` to decrement and `++` to increment
+    
+- Explain the difference between prefixing and post-fixing increment/decrement operators.
+    The difference is based on return values. Prefix returns new value where postfix returns old value.
+    
+- What is operator precedence and how is it handled in JS?
+    Operator precedence is handled the same in JS as it is in math.
+    
+- How do you access developer tools and the console?
+    From the right click menu select inspect and then the console tab from the newly opened dev tools.
+    
+- How do you log information to the console?
+    `console.log()`
+
+----
+
+# Fundamentals Part 2
+
+- What are the eight data types in JavaScript?
+- Which data type is NOT primitive?
+- What is the relationship between null and undefined?
+- What is the difference between single, double, and backtick quotes for strings?
+- What is the term for embedding variables/expressions in a string?
+- How do you embed variables/expressions in a string?
+- What are methods?
+- What is the difference between slice/substring/substr?
+- What are the three logical operators and what do they stand for?
+- What are the comparison operators?
+- What are truthy and falsy values?
+- What are the falsy values in JavaScript?
+- What are conditionals?
+- What is the syntax for an if/else conditional?
+- What is the syntax for a switch statement?
+- What is the syntax for a ternary operator?
+- What is nesting?
+
+----
